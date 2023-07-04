@@ -1,0 +1,1149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body>* {
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+
+.header-marg {
+    margin: 0px 70px;
+}
+
+.header-pad {
+    padding: 10px 0px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.header .nav .logo {
+
+    flex: 1;
+    transition: 1s all ease;
+    cursor: pointer;
+}
+
+
+
+.header .nav .logo:hover {
+    transform: scale(1.2) rotateX(360deg);
+}
+
+.header .nav .logo .nam1 {
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.header .nav .logo .nam2 {
+    color: orangered;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.header .list ul {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 50px;
+}
+
+.header .list ul a:hover {
+    color: orange;
+}
+
+.header .list ul a {
+    color: white;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+
+.header .nav .list {
+    flex: 3;
+
+}
+
+
+.header .nav .search {
+    cursor: pointer;
+    text-align: right;
+    flex: 1;
+    gap: 10px;
+
+}
+
+
+.header .nav .search input {
+    width: 160px;
+    height: 35px;
+    background-color: orangered;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid orangered;
+    background-color: transparent;
+}
+
+.header .nav .search input:focus {
+    padding-left: 5px;
+}
+
+.header .nav .search input::placeholder {
+    color: white;
+    font-weight: 700;
+    padding-left: 5px;
+
+}
+
+.header .nav .search input {
+    outline: none;
+    color: white;
+
+}
+
+
+.header .nav .btn1 {
+    cursor: pointer;
+    width: 70px;
+    height: 35px;
+    background-color: orangered;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    margin-right: 10px;
+
+}
+
+
+
+.btn2 {
+    height: 35px;
+    width: 35px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    display: none;
+}
+
+
+
+
+
+/* ============== Home Page ==============*/
+
+
+.hero-img .images {
+    max-width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.712)), url(img23.jpg);
+}
+
+.img-content {
+    margin-left: 70px;
+    padding: 250px 0px;
+    line-height: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.img-content h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.img-content h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+.img-content h2 .hero-img .img-content .h2 {
+    padding-bottom: 30px;
+}
+
+.img-content button {
+    width: 150px;
+    height: 35px;
+    background-color: orangered;
+    border: none;
+    font-weight: 800;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s all ease;
+
+}
+
+.img-content button:hover {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 800;
+}
+
+
+/* ============= Section-2 ================ */
+
+.section-2 {
+    background-color: #0b0d0e;
+    width: 100%;
+    height: fit-content;
+}
+
+.container {
+    margin: 0px 150px;
+}
+
+.padd {
+    padding: 100px 0px;
+}
+
+.section-2 .flex-2 {
+    display: flex;
+    gap: 30px;
+
+}
+
+.section-2 .img-l {
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section-2 .flex-2 .img-l img {
+    transition: 1s all ease;
+
+}
+
+.section-2 .flex-2 .img-l img:hover {
+    transform: scale(1.2);
+}
+
+
+
+.section-2 img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.section-2 .content-r {
+    flex: 1;
+    display: grid;
+    place-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.section-2 .content-r h4 {
+
+    color: #c2c2c2;
+    padding-bottom: 10px;
+}
+
+.section-2 .content-r h1 {
+    color: white;
+    font-size: 40px;
+
+}
+
+.section-2 .content-r p {
+
+    color: #c2c2c2;
+    padding-top: 10px;
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+
+.section-2 .content-r button {
+    width: 120px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    font-weight: 800;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+
+/*======================== Section-3 ====================== */
+
+
+
+.section-3 {
+    background-color: #222;
+    width: 100%;
+    height: fit-content;
+}
+
+.section-3 .heading {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.section-3 .heading h4 {
+    color: #c2c2c2;
+    padding-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.section-3 .heading h1 {
+    color: white;
+    padding-bottom: 60px;
+    font-size: 50px;
+}
+
+.section-3 .container .flex-3 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.section-3 .flex-3 .box1 {
+    height: fit-content;
+    width: 100%;
+    background-color: #0b0d0e;
+    padding: 40px 0;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.section-3 .flex-3 .box1 span,
+h2 {
+    line-height: 60px;
+}
+
+.section-3 .flex-3 .box1 span {
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    background-color: #222;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+
+}
+
+.section-3 .flex-3 .box1 .align {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    text-align: -webkit-center;
+    padding: 10px;
+}
+
+.section-3 .flex-3 .box1 .align h2 {
+    color: white;
+}
+
+
+.section-3 .flex-3 .box1 .align h4 {
+    color: #c2c2c2;
+    line-height: 30px;
+}
+
+.section-3 .flex-3 .box1:hover span {
+    color: white;
+    background-color: orangered;
+}
+
+.section-3 .flex-3 .box1:hover h2 {
+    color: orangered;
+}
+
+
+/*======================== Section-4 ====================== */
+
+
+
+.section-4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0b0d0e;
+    width: 100%;
+    height: fit-content;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 80px;
+}
+
+/* ========== left box ========== */
+
+.section-4 .grid-4 .left-box {
+
+    max-width: 100%;
+    height: auto;
+}
+
+.section-4 .grid-4 .left-box h4 {
+    color: #c2c2c2;
+}
+
+.section-4 .grid-4 .left-box p {
+    color: #c2c2c2;
+    padding: 20px 0px;
+    line-height: 30px;
+}
+
+.section-4 .grid-4 .left-box h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.section-4 .grid-4 .left-box button {
+    width: 120px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    font-weight: 800;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* ========= right box ============= */
+
+.section-4 .right-box {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #0b0d0e;
+    display: grid;
+    gap: 30px;
+
+}
+
+.section-4 .right-box .up-box {
+    background-color: #222;
+    padding: 30px 30px 30px 25px;
+    border-radius: 5px;
+}
+
+.section-4 .right-box .up-box:hover .left-1 span {
+    color: white;
+    background-color: orangered;
+}
+
+.section-4 .right-box .up-box:hover .right-1 h2 {
+    color: orangered;
+}
+
+.section-4 .right-box .down-box:hover .left-2 span {
+    color: white;
+    background-color: orangered;
+}
+
+.section-4 .right-box .down-box:hover .right-2 h2 {
+    color: orangered;
+}
+
+.section-4 .right-box .down-box {
+    background-color: #222;
+    padding: 30px 30px 30px 25px;
+    border-radius: 5px;
+}
+
+.section-4 .right-box .right-1 h2 {
+    color: white;
+}
+
+.section-4 .right-box .right-1 p {
+    color: #c2c2c2;
+}
+
+.section-4 .right-box .right-2 p {
+    color: #c2c2c2;
+}
+
+
+.section-4 .right-box .right-2 h2 {
+    color: white;
+}
+
+
+
+.section-4 .right-box .flex-rt {
+    display: flex;
+    gap: 20px;
+}
+
+.section-4 .right-box .flex-rt .left-1 span {
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    background-color: #0b0d0e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+
+.section-4 .right-box .flex-rb .left-2 {
+    display: grid;
+    align-items: center;
+}
+
+
+.section-4 .right-box .flex-rb {
+    display: flex;
+    gap: 20px;
+}
+
+.section-4 .right-box .flex-rb .left-2 span {
+    font-size: 30px;
+    height: 80px;
+    width: 80px;
+    background-color: #0b0d0e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+
+.section-4 .right-box .flex-rt .left-1 {
+    display: grid;
+    align-items: center;
+}
+
+
+/* =============== Section-5 ============== */
+
+/* -------------Header--------------- */
+
+.container-5 {
+    margin: 0px 70px 0px 70px;
+}
+
+.section-5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    width: 100%;
+    height: fit-content;
+}
+
+.section-5 .heading-5 {
+    text-align: center;
+}
+
+.section-5 .heading-5 h4 {
+    color: #c2c2c2;
+}
+
+.section-5 .heading-5 h1 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 20px
+}
+
+/* -----------images----------- */
+
+.section-5 .container-5 .padd .grid-5 img {
+    width: 380px;
+    height: 220px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.section-5 .container-5 .padd .grid-5 {
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    gap: 15px;
+    row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+
+
+/* ------------------ image overlay -------------------- */
+
+
+.section-5 .container-5 .padd .grid-5 .img1 {
+    position: relative;
+    width: 380px;
+    height: 220px;
+    cursor: pointer;
+}
+
+.section-5 .container-5 .padd .grid-5 .img2 {
+    position: relative;
+    width: 380px;
+    height: 220px;
+    cursor: pointer;
+}
+
+
+
+.section-5 .container-5 .padd .grid-5 .logo {
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    transition: 0.5s all;
+    transition-delay: 0.3s;
+    transform: scale(0);
+}
+
+.section-5 .container-5 .padd .grid-5 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.5s all;
+    transform: scale(0);
+
+}
+
+.section-5 .container-5 .padd .grid-5 .overlay .cen {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+
+.section-5 .container-5 .padd .grid-5 .img1 span {
+    font-size: 18px;
+    color: orangered;
+    overflow: hidden;
+
+}
+
+.section-5 .container-5 .padd .grid-5 .img2 span {
+    font-size: 18px;
+    color: orangered;
+    overflow: hidden;
+}
+
+.section-5 .container-5 .padd .grid-5 .img1:hover .overlay {
+    transform: scale(1);
+}
+
+.section-5 .container-5 .padd .grid-5 .img1:hover .logo {
+    transform: scale(1);
+}
+
+
+.section-5 .container-5 .padd .grid-5 .img2:hover .overlay {
+    transform: scale(1);
+}
+
+
+.section-5 .container-5 .padd .grid-5 .img2:hover .logo {
+    transform: scale(1);
+}
+
+
+
+/*=================== Section - 6 =========================*/
+
+.main-6 .img-6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.712)), url(img41.jpg);
+    max-width: 100%;
+    height: 490px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-6 {
+    position: relative;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-6 .text-6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0px 80px 0px 0px;
+    padding: 100px 0px;
+    width: 500px;
+}
+
+.main-6 .text-6 span {
+    color: white;
+    font-size: 60px;
+}
+
+.main-6 .text-6 .p1 {
+    color: #c2c2c2;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 16px 0px;
+}
+
+.main-6 .text-6 .flex-6 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-6 .text-6 .flex-6 .text-r h3 {
+    color: orange;
+}
+
+.main-6 .text-6 .flex-6 .text-r p {
+    color: white;
+}
+
+
+/* ===================== Section -7 ============== */
+
+.section-7 {
+    background-color: #111516;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: -1;
+
+}
+
+.section-7 .container-7 {
+    margin: 0px 70px 0px 70px;
+}
+
+.section-7 .container-7 .padd-7 {
+    padding: 100px 0px 215px 0px;
+}
+
+
+.section-7 .container-7 .padd-7 .heading-7 {
+    text-align: center;
+}
+
+.section-7 .container-7 .padd-7 .heading-7 h3 {
+    color: #c2c2c2;
+}
+
+.section-7 .container-7 .padd-7 .heading-7 h1 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 80px
+}
+
+
+.section-7 .container-7 .padd-7 .flex-7 .news {
+    width: 300px;
+    height: 500px;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .image-7 img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0px 0px;
+    transition: 0.2s all ease;
+    cursor: pointer;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .image-7 {
+    overflow: hidden;
+    width: 387px;
+    height: 290px;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news:hover .image-7 img {
+    transform: scale(1.1);
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news {
+    height: fit-content;
+    width: 440px;
+    border: 1px solid #7c7676;
+    border-radius: 5px;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 .author .date {
+    background-color: orangered;
+    color: white;
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 .author .ul-flex {
+    display: flex;
+    gap: 15px;
+    padding: 15px 0px;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 .author .ul-flex .li-1 span {
+    color: orange;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 .author .ul-flex .li-1 i {
+    color: #7c7676;
+    font-weight: 700;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 .author .ul-flex .li-1 .n1 {
+    color: #c2c2c2;
+    transition: 0.3s all ease;
+    font-weight: 700;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 .author .ul-flex .li-1 .n1:hover {
+    color: orange;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 .author .ul-flex .li-2 span {
+    color: orange;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 .author .ul-flex .li-2 .n2 {
+    color: #c2c2c2;
+    transition: 0.3s all ease;
+    font-weight: 700;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 .author .ul-flex .li-2 .n2:hover {
+    color: orange;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 a h3 {
+    color: white;
+    font-size: 25px;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 a .h2-2 {
+    padding-bottom: 15px;
+}
+
+
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 p {
+    color: #c2c2c2;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 {
+    padding: 25px 30px 25px 25px;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 a {
+    transition: 0.3s all ease;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 a .h2-1:hover {
+    color: orangered;
+}
+
+.section-7 .container-7 .padd-7 .flex-7 .news .text-7 a .h2-2:hover {
+    color: orangered;
+}
+
+
+
+/* -----------flex------------ */
+
+.section-7 .container-7 .padd-7 .flex-7 {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+/* ===================== Section - 8 ============== */
+
+
+
+.main-8 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-8 .container-8 {
+    margin: 0px 80px 0px 75px;
+
+}
+
+.main-8 .container-8 .padd-8 {
+    padding: 100px 0px;
+}
+
+
+.main-8 .img-8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img46.jpg);
+    max-width: 100%;
+    height: fit-content;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.main-8 .container-8 .img-8 .padd-8 {
+    padding: 50px 80px;
+}
+
+.main-8 .container-8 .img-8 .padd-8 .flex-8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.main-8 .container-8 .img-8 .padd-8 .flex-8 .left {
+    color: white;
+}
+
+
+.main-8 .container-8 .img-8 .padd-8 .flex-8 .right {
+    display: grid;
+    grid-gap: 20px;
+    flex: 0.8;
+    justify-content: end;
+}
+
+
+
+.main-8 .container-8 .img-8 .padd-8 .flex-8 .right input {
+    width: 350px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+}
+
+.main-8 .container-8 .img-8 .padd-8 .flex-8 .right input:focus {
+    outline: none;
+    font-size: 17px;
+    padding-left: 7px;
+}
+
+.main-8 .container-8 .img-8 .padd-8 .flex-8 .right input::placeholder {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.main-8 .container-8 .img-8 .padd-8 .flex-8 .right button {
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.main-8 .container-8 .img-8 .padd-8 .flex-8 .grid-8 form {
+    display: flex;
+    gap: 15px;
+}
+
+
+/* ===================== Section - 9 ============== */
+
+footer {
+    background-color: #030304;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+
+footer .container-5 .padd-9 {
+    padding: 100px 0px 100px 0px;
+}
+
+footer .container-5 .padd-9 .flex-9 {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 60px;
+
+}
+
+
+footer .container-5 .padd-9 .flex-9 .lin-1 h2 {
+    color: orangered;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-1 p {
+    color: #c2c2c2;
+    line-height: 25px;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-1 .p8-b {
+    padding-bottom: 60px;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-1 .logo-flex {
+    display: flex;
+    gap: 10px;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-2 {
+    flex: 0.5;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-3 {
+    flex: 0.5;
+}
+
+
+footer .container-5 .padd-9 .flex-9 .lin-1 .logo-flex .logo {
+    background-color: #121516;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-1 .logo-flex .logo:hover span {
+    color: white;
+
+
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-1 .logo-flex .logo:hover {
+    background-color: orangered;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-1 .logo-flex a span {
+    color: orange;
+    font-size: 23px;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-2 h2 {
+    color: white;
+    padding-left: 295px;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-2 p {
+    color: #c2c2c2;
+    padding-left: 295px;
+    line-height: 37px;
+    cursor: pointer;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-2 p:hover {
+    color: white;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-3 h2 {
+    color: white;
+    padding-left: 295px;
+}
+
+
+footer .container-5 .padd-9 .flex-9 .lin-3 p {
+    color: #c2c2c2;
+    padding-left: 295px;
+    line-height: 37px;
+    cursor: pointer;
+}
+
+footer .container-5 .padd-9 .flex-9 .lin-3 p:hover {
+    color: white;
+}
+
+footer .container-5 .padd-9 .footer-b {
+    border-top: 1px solid rgb(84 96 163 / 15%);
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+footer .container-5 .padd-9 .footer-b p {
+    text-align: center;
+    color: #c2c2c2;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer .container-5 .padd-9 .footer-b p a {
+    color: #c2c2c2;
+    font-weight: 500;
+    font-family: cursive;
+
+}
+
+footer .container-5 .padd-9 .footer-b p a:hover {
+    color: orange;
+}
+
+footer .container-5 .padd-9 .footer-b pre {
+    text-align: center;
+    font-size: 18px;
+    color: #c2c2c2;
+    font-weight: 500;
+}
+
+footer .container-5 .padd-9 .footer-b pre a {
+    color: #c2c2c2;
+    font-weight: 500;
+}
+
+
+
+/* =================== merg ===================== */
+
+.merg {
+    position: relative;
+}
+
+footer .main-8 {
+    position: absolute;
+    top: -113px;
+    width: 100%;
+}
